@@ -7,6 +7,10 @@ This library provides two classes, `ACCESSdbc` and `SSMSdbc`, for connecting to 
 ```bash 
 pip install db_handler
 ```
+## Dependencies 
+
+Pyodbc 5.0.1
+
 
 ## Usage
 ### Connecting to a Microsoft Access Database
