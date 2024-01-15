@@ -9,7 +9,7 @@ pip install db_handler
 ```
 
 ## Usage
-## Connecting to a Microsoft Access Database
+### Connecting to a Microsoft Access Database
 ```bash 
 from db_handler import ACCESSdbc
 
@@ -24,7 +24,7 @@ if db.connect():
     # Don't forget to disconnect when you're done
     db.disconnect()
 ```
-## Connecting to a Microsoft SQL Server Database
+### Connecting to a Microsoft SQL Server Database
 ```bash 
 from db_handler import SSMSdbc
 
