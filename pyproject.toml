@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "db-handler"
-version = "0.1.0"
+version = "0.2.1"
 description = ""
 authors = ["SIGIERLuc <154315009+LucSIGIER-LIAL@users.noreply.github.com>"]
 readme = "README.md"

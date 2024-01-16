@@ -1,5 +1,5 @@
 import pyodbc
-
+""" Run .help() to get the link to the documentation """
 
 class ACCESSdbc:
     """ Connect to a Microsoft Access database
@@ -91,3 +91,5 @@ class SSMSdbc:
         except pyodbc.Error as e:
             print(f"The error '{str(e)}' occurred")
 
+def help():
+    print('https://github.com/LucSIGIER-LIAL/db_handler/blob/main/README.md')
